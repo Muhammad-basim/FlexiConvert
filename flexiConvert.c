@@ -10,14 +10,14 @@ int main(){
 	int userChoice, subChoice;
 	float value, fvalue;
 	int exitProgram = 0, exitSubMenu = 0;
-printf(" ______ _          	 _    _____                          _   \n");
-printf("|  ____| |         	(_)  / ____|                        | |  \n");
-printf("| |__  | | ___  __   ___| | | |     ___  _ ____   _____ _ __| |_ \n");
-printf("|  __| | |/ _ \\ \\ \\_/ / | | | |    / _ \\| '_ \\ \\ / / _ \\ '__| __|\n");
-printf("| |    | |  __/  > _ <  | | | |___| (_) | | | \\ V /  __/ |  | |_ \n");
-printf("|_|    |_|\\___/ /_/ \\_\\ |_|  \\_____\\___/|_| |_|\\_/ \\___|_|   \\__|\n");
+	printf(" ______ _          	      _____                          _   \n");
+	printf("|  ____| |         	 _   /____|                         | |  \n");
+	printf("| |__  | | ___  __   ___(_) | |     ___  _ ____   _____ _ __| |_ \n");
+	printf("|  __| | |/ _ \\ \\ \\_/ / | | | |    / _ \\| '_ \\ \\ / / _ \\ '__| __|\n");
+	printf("| |    | |  __/  > _ <  | | | |___| (_) | | | \\ V /  __/ |  | |_ \n");
+	printf("|_|    |_|\\___/ /_/ \\_\\ |_|  \\_____\\___/|_| |_|\\_/ \\___|_|   \\__|\n");
 
-	printf("===== Welcome To FlexiConvert =====\n");
+	printf("\n===== Welcome To FlexiConvert =====\n");
 	SetConsoleTextAttribute(h, 10);   // Green color
 	
 	while(exitProgram == 0){
